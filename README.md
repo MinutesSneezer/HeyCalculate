@@ -1,6 +1,9 @@
 # HeyCalculate
 A tiny but powerful calculator
 
+＊＊＊＊＊＊＊关于报毒＊＊＊＊＊＊＊
+
+有用户安装时反应有报毒情况，经查证是由于 AI2 导出的 APK 文件集成了所有的控件 (包括短信收发器)，这使得杀毒软件在解析扫描 APK 时读取到了有关短信收发的代码，因此判定为危险应用，但正如你所见，Hey!Calculate 并不需要收发短信的权限，这只是杀毒软件单纯的误报，请放心使用。如果您还不放心，可以手动指定 Hey!Calculate 的权限，甚至禁止 Hey!Calculate 联网 (这样只会影响游戏排行榜）。谢谢大家的支持！
 
 - Support highly-precise computation for addition, subtraction, multiplication, division, exponentiation and natural logarithm
 - Support computation for Great Common Divisor, Least Common Multiple, factorial, combination number of large integers
